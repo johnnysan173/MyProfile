@@ -1,7 +1,5 @@
 body {
   font-family: sans-serif;
-  /* background-color: #ddd; */
-  /* color: #666; */
 }
 
 .profile-card {
@@ -13,6 +11,7 @@ body {
 .image-container {
   position: relative;
 }
+
 .profile-pic {
   width: 100%;
   height: 200px;
@@ -24,38 +23,29 @@ body {
   position: absolute;
   left: 20px;
   bottom: -10px;
-  /* background: #666; */
 }
 
 .main-container {
   padding: 20px;
-  /* background-color: #555; */
-}
-
-.material-icons {
-  vertical-align: middle;
-  margin-right: 10px;
 }
 
 p {
   font-size: 18px;
-  padding: 5px;
-  margin: 5px;
-  /* background-color: #fff; */
+  margin: 10px 0px;
 }
+
 .iconify {
   width: 18px;
   height: 18px;
 }
 
 .skill-bar {
-  margin: 5px;
-  background-color: gray;
+  background-color: lightgray;
   border-radius: 20px;
 }
 
 .progress-bar {
-  padding: 0.3em 0px;
+  padding: 0.2em 0px;
   background-color: peru;
   color: white;
   text-align: center;
