@@ -59,3 +59,7 @@ p {
 hr {
   margin: 20px 0px;
 }
+
+a {
+  color: inherit;
+}
