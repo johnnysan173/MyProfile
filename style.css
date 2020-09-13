@@ -51,3 +51,11 @@ p {
   text-align: center;
   border-radius: 20px;
 }
+
+.qrcode {
+  text-align: center;
+}
+
+hr {
+  margin: 20px 0px;
+}
