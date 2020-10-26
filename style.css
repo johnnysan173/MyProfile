@@ -2,46 +2,44 @@ body {
   font-family: sans-serif;
 }
 
-.profile-card {
+.card {
   width: 320px;
   margin: auto;
   box-shadow: 5px 5px 10px gray;
-}
-
-.image-container {
-  position: relative;
 }
 
 .profile-pic {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  object-position: 50% 20%;
+  object-position: 50% 10%;
 }
 
-.title {
-  position: absolute;
-  left: 20px;
-  bottom: -10px;
+.profile-body {
+  padding: 0 20px 20px;
 }
 
-.main-container {
-  padding: 20px;
+.legend {
+  border-bottom: 1px solid;
+}
+
+.intro {
+  font-size: 1em;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.1em;
   margin: 10px 0px;
 }
 
 .iconify {
-  width: 18px;
-  height: 18px;
+  width: 1em;
 }
 
 .skill-bar {
   background-color: lightgray;
   border-radius: 20px;
+  margin-top: -5px;
 }
 
 .progress-bar {
@@ -54,10 +52,6 @@ p {
 
 .qrcode {
   text-align: center;
-}
-
-hr {
-  margin: 20px 0px;
 }
 
 a {
